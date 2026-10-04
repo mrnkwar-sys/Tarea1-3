@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDE0E9"
+    tools:context=".ErrorActivity">
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="381dp"
+        android:layout_height="38dp"
+        android:text="El usuario o la contraseña son incorrectos. Por favor, verifica tus credenciales e inténtalo de nuevo."
+        android:textAlignment="center"
+        android:textColor="#8C7979"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#F44336"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/tryAgainButton"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#4D2B2B"
+        android:text="Reintentar"
+        app:cornerRadius="10sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Error de autenticación, User!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/forgotPasswordLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="#F44336"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="595dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
