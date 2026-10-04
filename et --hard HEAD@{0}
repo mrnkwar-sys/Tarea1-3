@@ -1,0 +1,8 @@
+[33mc0163b1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: reset: moving to origin/master
+[33m89cdf37[m[33m ([m[1;32mmis-cambios-deck[m[33m)[m HEAD@{1}: checkout: moving from mis-cambios-deck to master
+[33m89cdf37[m[33m ([m[1;32mmis-cambios-deck[m[33m)[m HEAD@{2}: checkout: moving from master to mis-cambios-deck
+[33m89cdf37[m[33m ([m[1;32mmis-cambios-deck[m[33m)[m HEAD@{3}: commit (amend): Hope this works
+[33mb9c157c[m HEAD@{4}: commit (amend): Hope this works
+[33me442652[m HEAD@{5}: rebase (abort): returning to refs/heads/master
+[33mc0163b1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{6}: pull origin master --rebase (start): checkout c0163b1495577ee89af044bc722dae7be43055af
+[33me442652[m HEAD@{7}: commit (initial): Hope this works
