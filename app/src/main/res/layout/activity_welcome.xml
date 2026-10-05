@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:text="¡Has iniciado sesión correctamente!"
         android:textColor="#8C7979"
+        android:textSize="14sp"
         tools:layout_editor_absoluteX="93dp"
         tools:layout_editor_absoluteY="470dp" />
 
