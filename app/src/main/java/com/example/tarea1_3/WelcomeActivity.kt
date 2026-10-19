@@ -1,6 +1,8 @@
 package com.example.tarea1_3
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,14 @@ class WelcomeActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val continueButton = findViewById<Button>(R.id.continueButton);
+//        var acceso = Intent(this, WelcomeActivity::class.java)
+
+        continueButton.setOnClickListener {
+            val acceso = Intent(this, AccesosActivity::class.java)
+            startActivity(acceso)
+        }
+//        finish()
     }
 }
